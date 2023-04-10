@@ -29,12 +29,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![image](https://user-images.githubusercontent.com/72755430/230923102-7edba58f-9afd-4c6e-8220-45e5126205fb.png)
 ![image](https://user-images.githubusercontent.com/72755430/230923171-63bd7875-2100-4291-b7cf-651a36e1dddf.png)
 ![screencapture-localhost-4200-admin-add-quiz-2023-04-10-17_08_54](https://user-images.githubusercontent.com/72755430/230923644-2ed82b6a-0823-48b4-9aa5-28c334918ab7.png)
-
+![screencapture-localhost-4200-admin-quizzes-2023-04-10-17_09_48](https://user-images.githubusercontent.com/72755430/230923758-362b4f66-0979-4598-8e45-c31ae83d4a52.png)![screencapture-localhost-4200-start-34-2023-04-10-17_15_03](https://user-images.githubusercontent.com/72755430/230924792-d4468fb5-0b5a-4362-862c-b35136ffc650.png)
 
 ![image](https://user-images.githubusercontent.com/72755430/230924125-d153ffe2-23d4-49d9-aaea-5a89b57895cb.png)
 ![screencapture-localhost-4200-user-dashboard-instructions-23-2023-04-10-17_13_53](https://user-images.githubusercontent.com/72755430/230924620-bf5aad3e-45b1-4f11-9dac-58fd7a8c2ff4.png)
 
-![screencapture-localhost-4200-admin-quizzes-2023-04-10-17_09_48](https://user-images.githubusercontent.com/72755430/230923758-362b4f66-0979-4598-8e45-c31ae83d4a52.png)![screencapture-localhost-4200-start-34-2023-04-10-17_15_03](https://user-images.githubusercontent.com/72755430/230924792-d4468fb5-0b5a-4362-862c-b35136ffc650.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/72755430/230925157-ce2bbaa8-8cc8-4840-97e4-de6c4b93d650.png)
