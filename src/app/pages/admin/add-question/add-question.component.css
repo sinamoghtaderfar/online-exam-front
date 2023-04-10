@@ -1,0 +1,7 @@
+.w100{
+    width: 100%;
+}
+
+.ck-editor__editable > p{
+    height: 100px !important;
+}

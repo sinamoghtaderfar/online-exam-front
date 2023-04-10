@@ -1,0 +1,35 @@
+<mat-card *ngIf="users">
+    <h1>Alle Members of examportal</h1>
+    <mat-card-content>
+        <div class="bootstrap-wrapper">
+            <div class="row">
+                <div class="container text-center">
+                    <ul class="responsive-table">
+                        <li class="table-header text-center">
+                            <div>No.</div>
+                            <div class="col col-1">Name</div>
+                            <div class="col col-2">Family</div>
+                            <div class="col col-2">Username</div>
+                            <div class="col col-3">Email</div>
+                            <div class="col col-1">Status</div>
+                            <div class="col col-1">Role</div>
+                            <div class="col col-1">Action</div>
+                        </li>
+                        <li class="table-row text-center" *ngFor="let user of users; let i = index">
+                            <div>{{ i+1 }}</div>
+                            <div class="col col-1">{{ user.firstName }}</div>
+                            <div class="col col-2">{{ user.lastName }}</div>
+                            <div class="col col-2">{{ user.username }}</div>
+                            <div class="col col-3">{{ user.email }}</div>
+                            <div class="col col-1">{{user.enabled ? "Active" : "Notactive"}}</div>
+                            <b class="col col-1">{{ user.authorities[0].authority}}</b>
+                            <div class="col col-1">
+                                <button mat-button color="warn" (click)="deleteUser(user.id)">Delete</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

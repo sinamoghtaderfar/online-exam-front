@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-action-list>
+        <div mat-subheader>User option</div>
+        <button mat-list-item routerLink="/user-dashboard/user-profile/" mat-list-item>
+            <mat-icon mat-list-icon>switch_account</mat-icon> Your Profile
+        </button>
+        <div mat-subheader>Categories</div>
+        <button mat-list-item routerLink="/user-dashboard/0" mat-list-item>
+            <mat-icon mat-list-icon>apps</mat-icon> All Quizzess
+        </button>
+        <button [routerLink]="'/user-dashboard/' + c.cid" mat-list-item *ngFor="let c of categories" >
+            <mat-icon mat-list-icon>quiz</mat-icon> {{c.title}}
+        </button>
+    </mat-action-list>
+</mat-card>
